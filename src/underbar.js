@@ -175,6 +175,10 @@
   //   }); // should be 5, regardless of the iterator function passed in
   //          No accumulator is given so the first element is used.
   _.reduce = function(collection, iterator, accumulator) {
+    // no starting value: accumulator[0] and not passed to iterator
+    // and iterator
+  
+  
   };
 
   // Determine if the array or object contains a given value (using `===`).
